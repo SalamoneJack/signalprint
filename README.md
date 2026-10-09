@@ -32,3 +32,23 @@ Or unattended: `powershell -ExecutionPolicy Bypass -File run_overnight.ps1`. Exa
 - Day 5: held out entirely as a **cross-day** test set (never used for training or model selection).
 - Normalization is per window, so no statistics cross split boundaries. Model selection and early stopping use **validation only**.
 - `build_splits` asserts pairwise-disjoint recording sets every time it runs.
+
+## Dataset and citation
+This project uses the Oregon State University LoRa RF fingerprinting dataset (NetSTAR Lab), available at
+<http://research.engr.oregonstate.edu/hamdaoui/datasets>. The raw data is **not** included in this repository;
+`download_data.py` fetches it from OSU. The dataset authors ask that any publication using it cite:
+
+```bibtex
+@article{elmaghbub2021lora,
+  title={{LoRa} Device Fingerprinting in the Wild: Disclosing {RF} Data-Driven Fingerprint Sensitivity to Deployment Variability},
+  author={Elmaghbub, Abdurrahman and Hamdaoui, Bechir},
+  journal={IEEE Access},
+  volume={9},
+  pages={142893--142909},
+  year={2021},
+  publisher={IEEE}
+}
+```
+
+## License
+Code in this repository is released under the MIT License (see `LICENSE`). The dataset is subject to its authors' own terms.
