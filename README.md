@@ -1,6 +1,44 @@
-# signalprint — LoRa RF fingerprinting (OSU dataset)
+# signalprint: identifying radio transmitters from raw RF signals
 
-Classify which of 25 LoRa transmitters produced a burst of raw I/Q samples. See `REPORT.md` for results.
+Every radio transmitter has tiny manufacturing imperfections that leave a unique "fingerprint" in the signal it emits. This project trains neural networks to tell **25 physically identical LoRa IoT devices** apart using only their raw I/Q samples. It uses a real over-the-air dataset from Oregon State University, with an evaluation designed to avoid the data leakage that inflates many results in this field.
+
+**Result:** the selected model identifies the transmitter from a single 4 ms signal slice **67% of the time on a day it never saw during training** (chance: 4%). Combining a recording's slices raises that to **84% per recording**.
+
+![Test accuracy per experiment](figures/test_accuracy.png)
+
+| Experiment | What changed | Same-day test (per slice) | Unseen day (per slice) | Unseen day (per recording) |
+|---|---|---|---|---|
+| A | Baseline small 1-D CNN, 256-sample input | 16.1% | 16.1% | 56.4% |
+| B | Same CNN, 1,024-sample input | 55.3% | 55.7% | 85.6% |
+| C | Deeper residual CNN (9× parameters), 256-sample input | 21.3% | 21.4% | 83.6% |
+| D | Spectrogram + 2-D CNN, 1,024-sample input | **70.5%** | 53.7% | 72.8% |
+| **E (selected)** | Same small CNN as A, 4,096-sample input | 67.5% | **66.7%** | 83.6% |
+
+The selected model was chosen on validation accuracy alone; test sets were never used for selection.
+
+## Key findings
+
+- **Understanding the signal beat adding model capacity.** Analysis of the raw data showed the strongest fingerprint is each device's carrier frequency offset: a stable ~2–4 kHz shift, tiny next to the ±62.5 kHz LoRa chirp. It only becomes separable when averaged across several LoRa symbols, each 1,024 samples here. Widening the input from 256 to 4,096 samples raised accuracy from 16% to 67%. A model with 9× more parameters on the short input reached only 21%.
+- **Same-session accuracy can mislead.** The spectrogram model scored highest on held-out recordings from training days (70.5%) but dropped to 53.7% on a new day. The raw-I/Q CNNs lost almost nothing. Evaluating on an unseen capture day exposed this; a random split would have hidden it.
+- **Errors trace back to physics and data gaps.** Remaining confusions are between devices with near-identical frequency offsets, plus one device missing a day of training data because of a server-side outage. Details are in [REPORT.md](REPORT.md).
+
+## Evaluation design (no data leakage)
+
+Splitting windows randomly lets slices of the same recording land in both training and test sets, which inflates accuracy. Here:
+
+- **The unit of splitting is the recording**, an independent capture. Recordings are assigned to splits *before* being cut into windows, so no recording contributes to more than one split. This is checked by assertions every run.
+- **Days 1–4:** each device's recordings are split 6 train / 2 validation / 2 test per day.
+- **Day 5:** held out entirely as an unseen-day test set.
+- **Normalization is per window**, so no statistics are shared across splits. Early stopping and model selection use validation only.
+
+## Engineering
+
+Built to run unattended overnight on a single 8 GB consumer GPU (RTX 3070 Ti):
+
+- **Thermal and OOM safety:** GPU temperature is polled during training, with a pause above 80°C and resume below 70°C. Mixed-precision (fp16) training keeps memory low. On out-of-memory errors, the batch size is halved automatically and the epoch is retried from the last checkpoint.
+- **Crash-safe checkpoints:** written atomically every epoch, so runs resume where they stopped, and each experiment is isolated so one failure doesn't stop the rest.
+- **Efficient data access:** the full dataset is 1.2 TB. The downloader uses HTTP Range requests to fetch a representative 4.7 GB slice covering every device, day and recording.
+- All five experiments trained in about 27 minutes. GPU peak was 61°C with no thermal pauses. Telemetry is in `logs/gpu_monitor.csv`.
 
 ## Reproduce
 
@@ -8,30 +46,27 @@ Classify which of 25 LoRa transmitters produced a burst of raw I/Q samples. See 
 python -m venv .venv
 .venv\Scripts\python -m pip install torch --index-url https://download.pytorch.org/whl/cu124
 .venv\Scripts\python -m pip install numpy scipy scikit-learn matplotlib
-.venv\Scripts\python download_data.py      # ~4.7 GB, resumable (byte-range subset, see below)
+.venv\Scripts\python download_data.py      # ~4.7 GB, resumable
 .venv\Scripts\python train.py              # all experiments; resumable, finished runs skipped
 .venv\Scripts\python make_report.py        # figures/ + results.md
 ```
 Or unattended: `powershell -ExecutionPolicy Bypass -File run_overnight.ps1`. Exact versions are in `requirements.txt`.
 
-## Files
 | File | Purpose |
 |---|---|
-| `download_data.py` | Fetches Setup 1 (Diff Days Indoor): 5 days × 25 devices × 10 recordings. Takes 0.5 s (500k complex samples) from each recording, starting 1 s in, via HTTP Range. |
-| `rfdata.py` | Loader, leakage-safe split (`build_splits`), windowing, per-window RMS normalization. |
-| `models.py` | `CNN1D` (baseline, 88k params), `ResCNN1D` (deeper, 794k), `SpecCNN` (STFT → 2-D CNN). |
-| `train.py` | Training with GPU safety: thermal pause, fp16 autocast, OOM back-off, atomic per-epoch checkpoints, resume, early stopping. |
-| `make_report.py` | Figures and the results table. |
-| `splits.json` | Exact recording IDs in each split (plus the 10 recordings the server refuses to serve). |
-| `runs/<exp>/` | `best.pt` (best validation), `last.pt` (resume state), `result.json`, `preds_*.npz`. |
-| `logs/` | `train.log`, `thermal.log`, `gpu_monitor.csv` (temp/power/VRAM per check), `download.log`, `power_limit.log`. |
+| `download_data.py` | Fetches OSU Setup 1 (Different Days, Indoor): 0.5 s from each of 5 days × 25 devices × 10 recordings, via HTTP Range. |
+| `rfdata.py` | I/Q loader, leakage-safe split (`build_splits`), windowing, normalization. |
+| `models.py` | `CNN1D` (88k params), `ResCNN1D` (794k), `SpecCNN` (STFT → 2-D CNN). |
+| `train.py` | Training loop with thermal guard, fp16, OOM back-off, checkpoints, resume, early stopping. |
+| `make_report.py` | Figures and results table. |
+| `splits.json` | Exact recording IDs in each split. |
+| `runs/<experiment>/` | `best.pt` weights, `result.json` (metrics and training history), `preds_*.npz`. |
+| `logs/` | Training log, GPU telemetry, download and environment logs. |
 
-## Split protocol (no leakage)
-- Unit of splitting = one recording (one `IQ_k.dat`, an independent capture). Splits are assigned to recording IDs **before** windowing, and every window is cut from inside one recording.
-- Days 1–4: for each (day, device) pair, 10 recordings are shuffled with seed 0 → 6 train / 2 val / 2 test.
-- Day 5: held out entirely as a **cross-day** test set (never used for training or model selection).
-- Normalization is per window, so no statistics cross split boundaries. Model selection and early stopping use **validation only**.
-- `build_splits` asserts pairwise-disjoint recording sets every time it runs.
+## Limitations
+
+- Each configuration was trained once (single seed); differences under ~5 points between top models are not conclusive.
+- The unseen-day test shares the room, receiver and settings with training. The dataset's other setups (different distances, locations and receivers) would be a harder robustness test.
 
 ## Dataset and citation
 This project uses the Oregon State University LoRa RF fingerprinting dataset (NetSTAR Lab), available at
