@@ -1,0 +1,11 @@
+# Raw I/Q data (4.7 GB) - re-create with: python download_data.py
+data/
+.venv/
+__pycache__/
+*.pyc
+# resume-only training state; best.pt (the selected weights) is kept
+runs/*/last.pt
+*.tmp
+*.part
+logs/overnight.pid
+logs/train_stdout.log

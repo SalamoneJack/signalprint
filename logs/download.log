@@ -1,0 +1,303 @@
+25/1250 done, 0 failed, 24s elapsed
+50/1250 done, 0 failed, 41s elapsed
+75/1250 done, 0 failed, 59s elapsed
+100/1250 done, 0 failed, 76s elapsed
+125/1250 done, 0 failed, 93s elapsed
+150/1250 done, 0 failed, 110s elapsed
+175/1250 done, 0 failed, 127s elapsed
+200/1250 done, 0 failed, 146s elapsed
+225/1250 done, 0 failed, 163s elapsed
+250/1250 done, 0 failed, 179s elapsed
+275/1250 done, 0 failed, 197s elapsed
+300/1250 done, 0 failed, 215s elapsed
+325/1250 done, 0 failed, 234s elapsed
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_1.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_2.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_3.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_4.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_5.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_6.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.dat: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.dat: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.dat: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.dat: HTTP Error 403: Forbidden
+350/1250 done, 6 failed, 421s elapsed
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.dat: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.dat: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.sigmf-meta: HTTP Error 403: Forbidden
+  retry 1 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.sigmf-meta: HTTP Error 403: Forbidden
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.sigmf-meta: HTTP Error 403: Forbidden
+375/1250 done, 6 failed, 474s elapsed
+  retry 2 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.sigmf-meta: HTTP Error 403: Forbidden
+  retry 3 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.sigmf-meta: HTTP Error 403: Forbidden
+  retry 4 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_7.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_8.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_9.sigmf-meta: HTTP Error 403: Forbidden
+  retry 5 https://research.engr.oregonstate.edu/hamdaoui/RFFP-dataset/LoRa-Dataset/Diff_Days_Indoor_Setup/Day2/Device9/IQ_10.sigmf-meta: HTTP Error 403: Forbidden
+400/1250 done, 6 failed, 530s elapsed
+425/1250 done, 10 failed, 556s elapsed
+450/1250 done, 10 failed, 573s elapsed
+475/1250 done, 10 failed, 590s elapsed
+500/1250 done, 10 failed, 607s elapsed
+525/1250 done, 10 failed, 625s elapsed
+550/1250 done, 10 failed, 642s elapsed
+575/1250 done, 10 failed, 659s elapsed
+600/1250 done, 10 failed, 676s elapsed
+625/1250 done, 10 failed, 695s elapsed
+650/1250 done, 10 failed, 713s elapsed
+675/1250 done, 10 failed, 732s elapsed
+700/1250 done, 10 failed, 748s elapsed
+725/1250 done, 10 failed, 765s elapsed
+750/1250 done, 10 failed, 782s elapsed
+775/1250 done, 10 failed, 800s elapsed
+800/1250 done, 10 failed, 816s elapsed
+825/1250 done, 10 failed, 834s elapsed
+850/1250 done, 10 failed, 850s elapsed
+875/1250 done, 10 failed, 867s elapsed
+900/1250 done, 10 failed, 885s elapsed
+925/1250 done, 10 failed, 901s elapsed
+950/1250 done, 10 failed, 919s elapsed
+975/1250 done, 10 failed, 938s elapsed
+1000/1250 done, 10 failed, 954s elapsed
+1025/1250 done, 10 failed, 971s elapsed
+1050/1250 done, 10 failed, 988s elapsed
+1075/1250 done, 10 failed, 1004s elapsed
+1100/1250 done, 10 failed, 1022s elapsed
+1125/1250 done, 10 failed, 1041s elapsed
+1150/1250 done, 10 failed, 1058s elapsed
+1175/1250 done, 10 failed, 1075s elapsed
+1200/1250 done, 10 failed, 1093s elapsed
+1225/1250 done, 10 failed, 1109s elapsed
+1250/1250 done, 10 failed, 1126s elapsed
+FINISHED: 1240 ok, 10 failed: [(2, 9, 1), (2, 9, 2), (2, 9, 3), (2, 9, 4), (2, 9, 5), (2, 9, 6), (2, 9, 7), (2, 9, 8), (2, 9, 9), (2, 9, 10)]
+2 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 5 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 7 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 1 0 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 1 2 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 1 5 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 1 7 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 2 0 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 2 2 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 2 5 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 2 7 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 3 0 0 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+ 3 2 5 / 1 2 5 0   d o n e ,   0   f a i l e d ,   0 s   e l a p s e d  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 3 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 2 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 4 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 6 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 5 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+ 3 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 3 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 4 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 4 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 4 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 4 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 5 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 5 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 5 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 5 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 6 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 6 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 6 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 6 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 7 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 7 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 7 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 7 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 8 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 8 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 8 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 8 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 9 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 9 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 9 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 9 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 0 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 0 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 0 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 0 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 1 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 1 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 1 5 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 1 7 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 2 0 0 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+ 1 2 2 5 / 1 2 5 0   d o n e ,   6   f a i l e d ,   1 5 5 s   e l a p s e d  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . d a t :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   1   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   2   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   3   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   4   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 7 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 1 0 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 9 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+     r e t r y   5   h t t p s : / / r e s e a r c h . e n g r . o r e g o n s t a t e . e d u / h a m d a o u i / R F F P - d a t a s e t / L o R a - D a t a s e t / D i f f _ D a y s _ I n d o o r _ S e t u p / D a y 2 / D e v i c e 9 / I Q _ 8 . s i g m f - m e t a :   H T T P   E r r o r   4 0 3 :   F o r b i d d e n  
+ 1 2 5 0 / 1 2 5 0   d o n e ,   1 0   f a i l e d ,   3 0 9 s   e l a p s e d  
+ F I N I S H E D :   1 2 4 0   o k ,   1 0   f a i l e d :   [ ( 2 ,   9 ,   3 ) ,   ( 2 ,   9 ,   2 ) ,   ( 2 ,   9 ,   4 ) ,   ( 2 ,   9 ,   5 ) ,   ( 2 ,   9 ,   1 ) ,   ( 2 ,   9 ,   6 ) ,   ( 2 ,   9 ,   7 ) ,   ( 2 ,   9 ,   1 0 ) ,   ( 2 ,   9 ,   9 ) ,   ( 2 ,   9 ,   8 ) ]  
+ 

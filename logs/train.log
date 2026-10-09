@@ -1,0 +1,324 @@
+[2026-10-08 23:33:45] === train.py start | torch 2.6.0+cu124 | NVIDIA GeForce RTX 3070 Ti
+[2026-10-08 23:33:54] split train         recordings= 594  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:33:56] split val           recordings= 198  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:33:59] split test          recordings= 198  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:34:01] split test_crossday recordings= 250  devices=25  samples/rec=500000  (days [5])
+[2026-10-08 23:34:04] A_cnn1d_L256: start. Baseline small 1-D CNN on raw I/Q, 256-sample window | params=88345
+[2026-10-08 23:34:07] A_cnn1d_L256 ep01 loss 3.231 train 0.0413 | val win 0.0434 rec 0.0606 | lr 1.0e-03 bs 256 | 3s peakmem 107MB *best*
+[2026-10-08 23:34:09] A_cnn1d_L256 ep02 loss 3.219 train 0.0436 | val win 0.0444 rec 0.0606 | lr 1.0e-03 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:11] A_cnn1d_L256 ep03 loss 3.207 train 0.0472 | val win 0.0459 rec 0.0404 | lr 1.0e-03 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:13] A_cnn1d_L256 ep04 loss 3.173 train 0.0546 | val win 0.0546 rec 0.0758 | lr 1.0e-03 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:15] A_cnn1d_L256 ep05 loss 3.131 train 0.0606 | val win 0.0536 rec 0.0455 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:17] A_cnn1d_L256 ep06 loss 3.094 train 0.0674 | val win 0.0500 rec 0.0505 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:19] A_cnn1d_L256 ep07 loss 3.074 train 0.0728 | val win 0.0741 rec 0.1869 | lr 1.0e-03 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:21] A_cnn1d_L256 ep08 loss 3.061 train 0.0766 | val win 0.0569 rec 0.0707 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:23] A_cnn1d_L256 ep09 loss 3.049 train 0.0804 | val win 0.0476 rec 0.0859 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:26] A_cnn1d_L256 ep10 loss 3.046 train 0.0834 | val win 0.0890 rec 0.2626 | lr 1.0e-03 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:28] A_cnn1d_L256 ep11 loss 3.036 train 0.0871 | val win 0.0645 rec 0.1263 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:30] A_cnn1d_L256 ep12 loss 3.032 train 0.0871 | val win 0.0838 rec 0.1869 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:32] A_cnn1d_L256 ep13 loss 3.023 train 0.0947 | val win 0.0759 rec 0.1414 | lr 1.0e-03 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:34] A_cnn1d_L256 ep14 loss 3.022 train 0.0913 | val win 0.0802 rec 0.2172 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:36] A_cnn1d_L256 ep15 loss 3.003 train 0.0992 | val win 0.1114 rec 0.2828 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:38] A_cnn1d_L256 ep16 loss 2.996 train 0.1037 | val win 0.0927 rec 0.3182 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:40] A_cnn1d_L256 ep17 loss 2.993 train 0.1036 | val win 0.1157 rec 0.3636 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:42] A_cnn1d_L256 ep18 loss 2.993 train 0.1050 | val win 0.1219 rec 0.4444 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:44] A_cnn1d_L256 ep19 loss 2.990 train 0.1037 | val win 0.1160 rec 0.4444 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:46] A_cnn1d_L256 ep20 loss 2.982 train 0.1088 | val win 0.0906 rec 0.2525 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:48] A_cnn1d_L256 ep21 loss 2.976 train 0.1106 | val win 0.1313 rec 0.4899 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:50] A_cnn1d_L256 ep22 loss 2.969 train 0.1132 | val win 0.1262 rec 0.3788 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:52] A_cnn1d_L256 ep23 loss 2.967 train 0.1148 | val win 0.1348 rec 0.5000 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:34:54] A_cnn1d_L256 ep24 loss 2.960 train 0.1140 | val win 0.1241 rec 0.4242 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:56] A_cnn1d_L256 ep25 loss 2.953 train 0.1194 | val win 0.1318 rec 0.4747 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:34:58] A_cnn1d_L256 ep26 loss 2.958 train 0.1156 | val win 0.1379 rec 0.5303 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:00] A_cnn1d_L256 ep27 loss 2.946 train 0.1203 | val win 0.1385 rec 0.5758 | lr 5.0e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:02] A_cnn1d_L256 ep28 loss 2.939 train 0.1225 | val win 0.1255 rec 0.4242 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:04] A_cnn1d_L256 ep29 loss 2.934 train 0.1245 | val win 0.1365 rec 0.5303 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:06] A_cnn1d_L256 ep30 loss 2.929 train 0.1254 | val win 0.1001 rec 0.3333 | lr 5.0e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:08] A_cnn1d_L256 ep31 loss 2.925 train 0.1255 | val win 0.1340 rec 0.4899 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:10] A_cnn1d_L256 ep32 loss 2.912 train 0.1324 | val win 0.1375 rec 0.5404 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:13] A_cnn1d_L256 ep33 loss 2.904 train 0.1342 | val win 0.1136 rec 0.3889 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:14] A_cnn1d_L256 ep34 loss 2.903 train 0.1343 | val win 0.1428 rec 0.5404 | lr 2.5e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:17] A_cnn1d_L256 ep35 loss 2.899 train 0.1365 | val win 0.1543 rec 0.6010 | lr 2.5e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:19] A_cnn1d_L256 ep36 loss 2.898 train 0.1365 | val win 0.1483 rec 0.6010 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:21] A_cnn1d_L256 ep37 loss 2.894 train 0.1394 | val win 0.1470 rec 0.5707 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:24] A_cnn1d_L256 ep38 loss 2.890 train 0.1397 | val win 0.1438 rec 0.5404 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:25] A_cnn1d_L256 ep39 loss 2.886 train 0.1429 | val win 0.1564 rec 0.6111 | lr 2.5e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:28] A_cnn1d_L256 ep40 loss 2.887 train 0.1399 | val win 0.1652 rec 0.6465 | lr 2.5e-04 bs 256 | 2s peakmem 107MB *best*
+[2026-10-08 23:35:30] A_cnn1d_L256 ep41 loss 2.880 train 0.1444 | val win 0.1594 rec 0.6566 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:32] A_cnn1d_L256 ep42 loss 2.874 train 0.1445 | val win 0.1501 rec 0.5707 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:34] A_cnn1d_L256 ep43 loss 2.876 train 0.1441 | val win 0.1534 rec 0.6313 | lr 2.5e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:36] A_cnn1d_L256 ep44 loss 2.882 train 0.1403 | val win 0.1280 rec 0.4394 | lr 1.3e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:38] A_cnn1d_L256 ep45 loss 2.865 train 0.1524 | val win 0.1624 rec 0.6616 | lr 1.3e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:40] A_cnn1d_L256 ep46 loss 2.869 train 0.1518 | val win 0.1573 rec 0.6212 | lr 1.3e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:42] A_cnn1d_L256 ep47 loss 2.870 train 0.1470 | val win 0.1594 rec 0.6263 | lr 1.3e-04 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:44] A_cnn1d_L256 ep48 loss 2.862 train 0.1505 | val win 0.1591 rec 0.6263 | lr 6.3e-05 bs 256 | 2s peakmem 107MB 
+[2026-10-08 23:35:44] A_cnn1d_L256: training finished (early stopping) best val 0.1652 @ epoch 40
+[2026-10-08 23:35:44] A_cnn1d_L256 FINAL val           window acc 0.1652 | recording acc 0.6465
+[2026-10-08 23:35:44] A_cnn1d_L256 FINAL test          window acc 0.1614 | recording acc 0.6010
+[2026-10-08 23:35:44] A_cnn1d_L256 FINAL test_crossday window acc 0.1608 | recording acc 0.5640
+[2026-10-08 23:35:44] B_cnn1d_L1024: start. Same CNN, longer 1024-sample window | params=88345
+[2026-10-08 23:35:48] B_cnn1d_L1024 ep01 loss 3.191 train 0.0592 | val win 0.0784 rec 0.0505 | lr 1.0e-03 bs 256 | 4s peakmem 294MB *best*
+[2026-10-08 23:35:52] B_cnn1d_L1024 ep02 loss 2.933 train 0.1075 | val win 0.1421 rec 0.2172 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:35:55] B_cnn1d_L1024 ep03 loss 2.757 train 0.1457 | val win 0.1618 rec 0.2273 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:35:58] B_cnn1d_L1024 ep04 loss 2.678 train 0.1694 | val win 0.1982 rec 0.2828 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:02] B_cnn1d_L1024 ep05 loss 2.638 train 0.1860 | val win 0.1244 rec 0.1061 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:05] B_cnn1d_L1024 ep06 loss 2.597 train 0.2072 | val win 0.1913 rec 0.2222 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:09] B_cnn1d_L1024 ep07 loss 2.560 train 0.2271 | val win 0.2432 rec 0.3283 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:12] B_cnn1d_L1024 ep08 loss 2.532 train 0.2434 | val win 0.2935 rec 0.4192 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:15] B_cnn1d_L1024 ep09 loss 2.491 train 0.2603 | val win 0.0911 rec 0.0909 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:19] B_cnn1d_L1024 ep10 loss 2.445 train 0.2764 | val win 0.1891 rec 0.2020 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:22] B_cnn1d_L1024 ep11 loss 2.413 train 0.2870 | val win 0.2495 rec 0.3131 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:26] B_cnn1d_L1024 ep12 loss 2.383 train 0.2984 | val win 0.3547 rec 0.4798 | lr 1.0e-03 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:29] B_cnn1d_L1024 ep13 loss 2.361 train 0.3074 | val win 0.2802 rec 0.3283 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:32] B_cnn1d_L1024 ep14 loss 2.325 train 0.3162 | val win 0.2404 rec 0.3283 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:36] B_cnn1d_L1024 ep15 loss 2.306 train 0.3198 | val win 0.2755 rec 0.3434 | lr 1.0e-03 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:39] B_cnn1d_L1024 ep16 loss 2.272 train 0.3366 | val win 0.3104 rec 0.4091 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:43] B_cnn1d_L1024 ep17 loss 2.222 train 0.3597 | val win 0.2324 rec 0.2778 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:46] B_cnn1d_L1024 ep18 loss 2.202 train 0.3641 | val win 0.3976 rec 0.5253 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:49] B_cnn1d_L1024 ep19 loss 2.182 train 0.3688 | val win 0.2788 rec 0.3485 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:36:53] B_cnn1d_L1024 ep20 loss 2.168 train 0.3745 | val win 0.4080 rec 0.6010 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:36:56] B_cnn1d_L1024 ep21 loss 2.141 train 0.3816 | val win 0.4098 rec 0.5606 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:37:00] B_cnn1d_L1024 ep22 loss 2.128 train 0.3873 | val win 0.4630 rec 0.7222 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:37:03] B_cnn1d_L1024 ep23 loss 2.108 train 0.3902 | val win 0.4147 rec 0.6061 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:06] B_cnn1d_L1024 ep24 loss 2.083 train 0.4020 | val win 0.4649 rec 0.7525 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:37:10] B_cnn1d_L1024 ep25 loss 2.081 train 0.4000 | val win 0.4791 rec 0.6970 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:37:13] B_cnn1d_L1024 ep26 loss 2.078 train 0.3977 | val win 0.3864 rec 0.4798 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:17] B_cnn1d_L1024 ep27 loss 2.042 train 0.4164 | val win 0.4439 rec 0.6515 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:21] B_cnn1d_L1024 ep28 loss 2.045 train 0.4119 | val win 0.4248 rec 0.6263 | lr 5.0e-04 bs 256 | 4s peakmem 294MB 
+[2026-10-08 23:37:24] B_cnn1d_L1024 ep29 loss 2.018 train 0.4222 | val win 0.5041 rec 0.7778 | lr 5.0e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:37:28] B_cnn1d_L1024 ep30 loss 2.012 train 0.4228 | val win 0.4505 rec 0.6212 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:31] B_cnn1d_L1024 ep31 loss 2.014 train 0.4212 | val win 0.4945 rec 0.8030 | lr 5.0e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:35] B_cnn1d_L1024 ep32 loss 1.969 train 0.4386 | val win 0.4220 rec 0.6061 | lr 5.0e-04 bs 256 | 4s peakmem 294MB 
+[2026-10-08 23:37:40] B_cnn1d_L1024 ep33 loss 2.001 train 0.4222 | val win 0.4739 rec 0.7626 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:37:44] B_cnn1d_L1024 ep34 loss 1.933 train 0.4618 | val win 0.4881 rec 0.7626 | lr 2.5e-04 bs 256 | 4s peakmem 294MB 
+[2026-10-08 23:37:47] B_cnn1d_L1024 ep35 loss 1.931 train 0.4593 | val win 0.4882 rec 0.7172 | lr 2.5e-04 bs 256 | 4s peakmem 294MB 
+[2026-10-08 23:37:51] B_cnn1d_L1024 ep36 loss 1.923 train 0.4632 | val win 0.5397 rec 0.8182 | lr 2.5e-04 bs 256 | 4s peakmem 294MB *best*
+[2026-10-08 23:37:55] B_cnn1d_L1024 ep37 loss 1.911 train 0.4676 | val win 0.5163 rec 0.7626 | lr 2.5e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:37:58] B_cnn1d_L1024 ep38 loss 1.906 train 0.4712 | val win 0.5125 rec 0.7929 | lr 2.5e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:01] B_cnn1d_L1024 ep39 loss 1.901 train 0.4699 | val win 0.5445 rec 0.8232 | lr 2.5e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:38:05] B_cnn1d_L1024 ep40 loss 1.888 train 0.4733 | val win 0.5400 rec 0.8182 | lr 2.5e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:08] B_cnn1d_L1024 ep41 loss 1.892 train 0.4708 | val win 0.5220 rec 0.7828 | lr 2.5e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:12] B_cnn1d_L1024 ep42 loss 1.867 train 0.4792 | val win 0.5353 rec 0.8232 | lr 2.5e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:15] B_cnn1d_L1024 ep43 loss 1.867 train 0.4839 | val win 0.5258 rec 0.7929 | lr 1.3e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:19] B_cnn1d_L1024 ep44 loss 1.837 train 0.4991 | val win 0.5470 rec 0.8434 | lr 1.3e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:38:22] B_cnn1d_L1024 ep45 loss 1.840 train 0.4983 | val win 0.5600 rec 0.8485 | lr 1.3e-04 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:38:25] B_cnn1d_L1024 ep46 loss 1.830 train 0.5003 | val win 0.5469 rec 0.7929 | lr 1.3e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:29] B_cnn1d_L1024 ep47 loss 1.822 train 0.5057 | val win 0.5547 rec 0.8384 | lr 1.3e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:32] B_cnn1d_L1024 ep48 loss 1.819 train 0.5030 | val win 0.5558 rec 0.8485 | lr 1.3e-04 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:36] B_cnn1d_L1024 ep49 loss 1.814 train 0.5084 | val win 0.5403 rec 0.8182 | lr 6.3e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:39] B_cnn1d_L1024 ep50 loss 1.811 train 0.5117 | val win 0.5587 rec 0.8535 | lr 6.3e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:42] B_cnn1d_L1024 ep51 loss 1.812 train 0.5112 | val win 0.5688 rec 0.8485 | lr 6.3e-05 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:38:46] B_cnn1d_L1024 ep52 loss 1.800 train 0.5135 | val win 0.5579 rec 0.8232 | lr 6.3e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:49] B_cnn1d_L1024 ep53 loss 1.805 train 0.5123 | val win 0.5489 rec 0.8232 | lr 6.3e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:53] B_cnn1d_L1024 ep54 loss 1.805 train 0.5103 | val win 0.5626 rec 0.8535 | lr 6.3e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:56] B_cnn1d_L1024 ep55 loss 1.808 train 0.5084 | val win 0.5633 rec 0.8434 | lr 3.1e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:38:59] B_cnn1d_L1024 ep56 loss 1.793 train 0.5179 | val win 0.5655 rec 0.8485 | lr 3.1e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:39:03] B_cnn1d_L1024 ep57 loss 1.789 train 0.5185 | val win 0.5699 rec 0.8333 | lr 3.1e-05 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:39:06] B_cnn1d_L1024 ep58 loss 1.788 train 0.5190 | val win 0.5741 rec 0.8434 | lr 3.1e-05 bs 256 | 3s peakmem 294MB *best*
+[2026-10-08 23:39:10] B_cnn1d_L1024 ep59 loss 1.787 train 0.5202 | val win 0.5673 rec 0.8333 | lr 3.1e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:39:13] B_cnn1d_L1024 ep60 loss 1.791 train 0.5177 | val win 0.5666 rec 0.8283 | lr 3.1e-05 bs 256 | 3s peakmem 294MB 
+[2026-10-08 23:39:13] B_cnn1d_L1024: training finished (max epochs) best val 0.5741 @ epoch 58
+[2026-10-08 23:39:13] B_cnn1d_L1024 FINAL val           window acc 0.5741 | recording acc 0.8434
+[2026-10-08 23:39:14] B_cnn1d_L1024 FINAL test          window acc 0.5528 | recording acc 0.8434
+[2026-10-08 23:39:14] B_cnn1d_L1024 FINAL test_crossday window acc 0.5565 | recording acc 0.8560
+[2026-10-08 23:39:14] C_rescnn1d_L256: start. Deeper residual 1-D CNN (8 res blocks), 256 window | params=793881
+[2026-10-08 23:39:20] C_rescnn1d_L256 ep01 loss 3.234 train 0.0413 | val win 0.0403 rec 0.0455 | lr 1.0e-03 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:39:25] C_rescnn1d_L256 ep02 loss 3.220 train 0.0436 | val win 0.0447 rec 0.0404 | lr 1.0e-03 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:39:30] C_rescnn1d_L256 ep03 loss 3.218 train 0.0420 | val win 0.0428 rec 0.0707 | lr 1.0e-03 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:39:35] C_rescnn1d_L256 ep04 loss 3.215 train 0.0433 | val win 0.0432 rec 0.0505 | lr 1.0e-03 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:39:40] C_rescnn1d_L256 ep05 loss 3.168 train 0.0540 | val win 0.0419 rec 0.0404 | lr 1.0e-03 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:39:45] C_rescnn1d_L256 ep06 loss 3.068 train 0.0728 | val win 0.0381 rec 0.0354 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:39:50] C_rescnn1d_L256 ep07 loss 3.020 train 0.0828 | val win 0.0435 rec 0.0404 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:39:55] C_rescnn1d_L256 ep08 loss 3.006 train 0.0882 | val win 0.0797 rec 0.2273 | lr 5.0e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:40:00] C_rescnn1d_L256 ep09 loss 2.992 train 0.0913 | val win 0.0415 rec 0.0404 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:04] C_rescnn1d_L256 ep10 loss 2.970 train 0.0996 | val win 0.0999 rec 0.3586 | lr 5.0e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:40:10] C_rescnn1d_L256 ep11 loss 2.951 train 0.1084 | val win 0.1178 rec 0.5354 | lr 5.0e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:40:14] C_rescnn1d_L256 ep12 loss 2.919 train 0.1184 | val win 0.0511 rec 0.0758 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:19] C_rescnn1d_L256 ep13 loss 2.889 train 0.1295 | val win 0.1304 rec 0.5303 | lr 5.0e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:40:24] C_rescnn1d_L256 ep14 loss 2.886 train 0.1313 | val win 0.0878 rec 0.2475 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:29] C_rescnn1d_L256 ep15 loss 2.858 train 0.1392 | val win 0.0475 rec 0.0455 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:34] C_rescnn1d_L256 ep16 loss 2.843 train 0.1444 | val win 0.0827 rec 0.2071 | lr 5.0e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:39] C_rescnn1d_L256 ep17 loss 2.836 train 0.1488 | val win 0.1186 rec 0.3687 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:44] C_rescnn1d_L256 ep18 loss 2.815 train 0.1578 | val win 0.1127 rec 0.3636 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:49] C_rescnn1d_L256 ep19 loss 2.809 train 0.1580 | val win 0.1100 rec 0.3384 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:40:54] C_rescnn1d_L256 ep20 loss 2.795 train 0.1632 | val win 0.1354 rec 0.4545 | lr 2.5e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:40:59] C_rescnn1d_L256 ep21 loss 2.786 train 0.1640 | val win 0.0985 rec 0.2677 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:04] C_rescnn1d_L256 ep22 loss 2.783 train 0.1673 | val win 0.0985 rec 0.2576 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:09] C_rescnn1d_L256 ep23 loss 2.784 train 0.1667 | val win 0.0966 rec 0.2222 | lr 2.5e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:14] C_rescnn1d_L256 ep24 loss 2.779 train 0.1669 | val win 0.1171 rec 0.3535 | lr 1.3e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:19] C_rescnn1d_L256 ep25 loss 2.760 train 0.1765 | val win 0.1790 rec 0.7071 | lr 1.3e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:41:24] C_rescnn1d_L256 ep26 loss 2.757 train 0.1768 | val win 0.1890 rec 0.7576 | lr 1.3e-04 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:41:29] C_rescnn1d_L256 ep27 loss 2.758 train 0.1790 | val win 0.1830 rec 0.6717 | lr 1.3e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:34] C_rescnn1d_L256 ep28 loss 2.748 train 0.1802 | val win 0.1708 rec 0.6162 | lr 1.3e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:39] C_rescnn1d_L256 ep29 loss 2.745 train 0.1818 | val win 0.1436 rec 0.4949 | lr 1.3e-04 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:44] C_rescnn1d_L256 ep30 loss 2.745 train 0.1830 | val win 0.1843 rec 0.6919 | lr 6.3e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:49] C_rescnn1d_L256 ep31 loss 2.738 train 0.1855 | val win 0.1399 rec 0.4242 | lr 6.3e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:41:54] C_rescnn1d_L256 ep32 loss 2.741 train 0.1856 | val win 0.2010 rec 0.8131 | lr 6.3e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:41:59] C_rescnn1d_L256 ep33 loss 2.730 train 0.1875 | val win 0.1934 rec 0.6869 | lr 6.3e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:04] C_rescnn1d_L256 ep34 loss 2.726 train 0.1891 | val win 0.1973 rec 0.7222 | lr 6.3e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:09] C_rescnn1d_L256 ep35 loss 2.722 train 0.1923 | val win 0.1481 rec 0.4444 | lr 6.3e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:14] C_rescnn1d_L256 ep36 loss 2.723 train 0.1931 | val win 0.1762 rec 0.6667 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:18] C_rescnn1d_L256 ep37 loss 2.722 train 0.1909 | val win 0.2030 rec 0.7727 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:42:23] C_rescnn1d_L256 ep38 loss 2.716 train 0.1951 | val win 0.2037 rec 0.7879 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:42:28] C_rescnn1d_L256 ep39 loss 2.722 train 0.1924 | val win 0.1997 rec 0.7727 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:33] C_rescnn1d_L256 ep40 loss 2.723 train 0.1934 | val win 0.2040 rec 0.7727 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:42:38] C_rescnn1d_L256 ep41 loss 2.713 train 0.1958 | val win 0.2072 rec 0.8333 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:42:43] C_rescnn1d_L256 ep42 loss 2.712 train 0.1964 | val win 0.2100 rec 0.8333 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:42:48] C_rescnn1d_L256 ep43 loss 2.713 train 0.1944 | val win 0.2073 rec 0.7980 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:53] C_rescnn1d_L256 ep44 loss 2.720 train 0.1949 | val win 0.2098 rec 0.8232 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:42:58] C_rescnn1d_L256 ep45 loss 2.712 train 0.1974 | val win 0.2059 rec 0.8182 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:03] C_rescnn1d_L256 ep46 loss 2.713 train 0.1969 | val win 0.2114 rec 0.8182 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:43:08] C_rescnn1d_L256 ep47 loss 2.715 train 0.1959 | val win 0.2146 rec 0.8535 | lr 3.1e-05 bs 256 | 5s peakmem 294MB *best*
+[2026-10-08 23:43:13] C_rescnn1d_L256 ep48 loss 2.713 train 0.1950 | val win 0.2081 rec 0.8434 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:18] C_rescnn1d_L256 ep49 loss 2.707 train 0.1993 | val win 0.2134 rec 0.8384 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:23] C_rescnn1d_L256 ep50 loss 2.709 train 0.1958 | val win 0.2138 rec 0.8434 | lr 3.1e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:28] C_rescnn1d_L256 ep51 loss 2.701 train 0.2000 | val win 0.1795 rec 0.6566 | lr 1.6e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:33] C_rescnn1d_L256 ep52 loss 2.705 train 0.1988 | val win 0.1836 rec 0.6616 | lr 1.6e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:38] C_rescnn1d_L256 ep53 loss 2.711 train 0.1981 | val win 0.2045 rec 0.7828 | lr 1.6e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:42] C_rescnn1d_L256 ep54 loss 2.699 train 0.2000 | val win 0.2096 rec 0.7879 | lr 1.6e-05 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:47] C_rescnn1d_L256 ep55 loss 2.704 train 0.1990 | val win 0.2137 rec 0.8081 | lr 7.8e-06 bs 256 | 5s peakmem 294MB 
+[2026-10-08 23:43:47] C_rescnn1d_L256: training finished (early stopping) best val 0.2146 @ epoch 47
+[2026-10-08 23:43:47] C_rescnn1d_L256 FINAL val           window acc 0.2146 | recording acc 0.8535
+[2026-10-08 23:43:48] C_rescnn1d_L256 FINAL test          window acc 0.2132 | recording acc 0.8384
+[2026-10-08 23:43:48] C_rescnn1d_L256 FINAL test_crossday window acc 0.2136 | recording acc 0.8360
+[2026-10-08 23:43:48] D_spec2d_L1024: start. Spectrogram (STFT 64/16) + 2-D CNN, 1024 window | params=243833
+[2026-10-08 23:43:55] D_spec2d_L1024 ep01 loss 3.101 train 0.0788 | val win 0.1135 rec 0.1566 | lr 1.0e-03 bs 256 | 6s peakmem 748MB *best*
+[2026-10-08 23:44:00] D_spec2d_L1024 ep02 loss 2.511 train 0.2165 | val win 0.1682 rec 0.1768 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:05] D_spec2d_L1024 ep03 loss 2.160 train 0.3476 | val win 0.2555 rec 0.2980 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:10] D_spec2d_L1024 ep04 loss 1.953 train 0.4274 | val win 0.1088 rec 0.0960 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:44:15] D_spec2d_L1024 ep05 loss 1.852 train 0.4675 | val win 0.3247 rec 0.4293 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:20] D_spec2d_L1024 ep06 loss 1.779 train 0.4947 | val win 0.2897 rec 0.3182 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:44:25] D_spec2d_L1024 ep07 loss 1.719 train 0.5192 | val win 0.2785 rec 0.2980 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:44:30] D_spec2d_L1024 ep08 loss 1.681 train 0.5337 | val win 0.3260 rec 0.3838 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:35] D_spec2d_L1024 ep09 loss 1.639 train 0.5500 | val win 0.3599 rec 0.4444 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:40] D_spec2d_L1024 ep10 loss 1.625 train 0.5533 | val win 0.3916 rec 0.4747 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:45] D_spec2d_L1024 ep11 loss 1.586 train 0.5704 | val win 0.4485 rec 0.5455 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:50] D_spec2d_L1024 ep12 loss 1.564 train 0.5803 | val win 0.4616 rec 0.6162 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:44:55] D_spec2d_L1024 ep13 loss 1.566 train 0.5765 | val win 0.3085 rec 0.3636 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:00] D_spec2d_L1024 ep14 loss 1.526 train 0.5926 | val win 0.5229 rec 0.7071 | lr 1.0e-03 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:45:05] D_spec2d_L1024 ep15 loss 1.507 train 0.6006 | val win 0.4031 rec 0.4747 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:10] D_spec2d_L1024 ep16 loss 1.500 train 0.6044 | val win 0.5074 rec 0.6616 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:15] D_spec2d_L1024 ep17 loss 1.486 train 0.6073 | val win 0.5206 rec 0.6061 | lr 1.0e-03 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:20] D_spec2d_L1024 ep18 loss 1.460 train 0.6185 | val win 0.5106 rec 0.6364 | lr 5.0e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:25] D_spec2d_L1024 ep19 loss 1.414 train 0.6407 | val win 0.6256 rec 0.8182 | lr 5.0e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:45:30] D_spec2d_L1024 ep20 loss 1.414 train 0.6365 | val win 0.5438 rec 0.6768 | lr 5.0e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:35] D_spec2d_L1024 ep21 loss 1.395 train 0.6455 | val win 0.5100 rec 0.6465 | lr 5.0e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:40] D_spec2d_L1024 ep22 loss 1.396 train 0.6429 | val win 0.4406 rec 0.5556 | lr 5.0e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:45] D_spec2d_L1024 ep23 loss 1.388 train 0.6493 | val win 0.6122 rec 0.7929 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:50] D_spec2d_L1024 ep24 loss 1.349 train 0.6649 | val win 0.6160 rec 0.8081 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:45:55] D_spec2d_L1024 ep25 loss 1.346 train 0.6639 | val win 0.6144 rec 0.8081 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:00] D_spec2d_L1024 ep26 loss 1.344 train 0.6647 | val win 0.6280 rec 0.7980 | lr 2.5e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:46:05] D_spec2d_L1024 ep27 loss 1.335 train 0.6687 | val win 0.6516 rec 0.8737 | lr 2.5e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:46:10] D_spec2d_L1024 ep28 loss 1.340 train 0.6656 | val win 0.4844 rec 0.6212 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:15] D_spec2d_L1024 ep29 loss 1.331 train 0.6699 | val win 0.5987 rec 0.7475 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:20] D_spec2d_L1024 ep30 loss 1.334 train 0.6674 | val win 0.6576 rec 0.8788 | lr 2.5e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:46:25] D_spec2d_L1024 ep31 loss 1.332 train 0.6696 | val win 0.6321 rec 0.8182 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:30] D_spec2d_L1024 ep32 loss 1.319 train 0.6744 | val win 0.6485 rec 0.8687 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:35] D_spec2d_L1024 ep33 loss 1.321 train 0.6738 | val win 0.6638 rec 0.8485 | lr 2.5e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:46:41] D_spec2d_L1024 ep34 loss 1.316 train 0.6726 | val win 0.5607 rec 0.7273 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:46] D_spec2d_L1024 ep35 loss 1.312 train 0.6759 | val win 0.6591 rec 0.8687 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:51] D_spec2d_L1024 ep36 loss 1.310 train 0.6771 | val win 0.6493 rec 0.8434 | lr 2.5e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:46:56] D_spec2d_L1024 ep37 loss 1.303 train 0.6807 | val win 0.6316 rec 0.8131 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:01] D_spec2d_L1024 ep38 loss 1.292 train 0.6843 | val win 0.5654 rec 0.7071 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:06] D_spec2d_L1024 ep39 loss 1.288 train 0.6857 | val win 0.6388 rec 0.8232 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:11] D_spec2d_L1024 ep40 loss 1.288 train 0.6859 | val win 0.6674 rec 0.8636 | lr 1.3e-04 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:47:16] D_spec2d_L1024 ep41 loss 1.286 train 0.6854 | val win 0.6653 rec 0.8687 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:21] D_spec2d_L1024 ep42 loss 1.277 train 0.6910 | val win 0.5982 rec 0.7525 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:26] D_spec2d_L1024 ep43 loss 1.277 train 0.6918 | val win 0.6604 rec 0.8636 | lr 1.3e-04 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:31] D_spec2d_L1024 ep44 loss 1.276 train 0.6900 | val win 0.6051 rec 0.7778 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:36] D_spec2d_L1024 ep45 loss 1.276 train 0.6898 | val win 0.6618 rec 0.8384 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:41] D_spec2d_L1024 ep46 loss 1.267 train 0.6931 | val win 0.6599 rec 0.8737 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:47:46] D_spec2d_L1024 ep47 loss 1.266 train 0.6927 | val win 0.6685 rec 0.8636 | lr 6.3e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:47:51] D_spec2d_L1024 ep48 loss 1.263 train 0.6954 | val win 0.6764 rec 0.8737 | lr 6.3e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:47:56] D_spec2d_L1024 ep49 loss 1.265 train 0.6945 | val win 0.6770 rec 0.8838 | lr 6.3e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:48:01] D_spec2d_L1024 ep50 loss 1.263 train 0.6948 | val win 0.6804 rec 0.8788 | lr 6.3e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:48:06] D_spec2d_L1024 ep51 loss 1.269 train 0.6953 | val win 0.6789 rec 0.8939 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:11] D_spec2d_L1024 ep52 loss 1.258 train 0.6968 | val win 0.6622 rec 0.8636 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:16] D_spec2d_L1024 ep53 loss 1.257 train 0.6970 | val win 0.6715 rec 0.8636 | lr 6.3e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:21] D_spec2d_L1024 ep54 loss 1.260 train 0.6978 | val win 0.6601 rec 0.8535 | lr 3.1e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:26] D_spec2d_L1024 ep55 loss 1.256 train 0.6978 | val win 0.6792 rec 0.8788 | lr 3.1e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:31] D_spec2d_L1024 ep56 loss 1.247 train 0.7030 | val win 0.6862 rec 0.8889 | lr 3.1e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:48:36] D_spec2d_L1024 ep57 loss 1.254 train 0.7005 | val win 0.6866 rec 0.8838 | lr 3.1e-05 bs 256 | 5s peakmem 748MB *best*
+[2026-10-08 23:48:41] D_spec2d_L1024 ep58 loss 1.254 train 0.6976 | val win 0.6716 rec 0.8636 | lr 3.1e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:46] D_spec2d_L1024 ep59 loss 1.253 train 0.7007 | val win 0.6834 rec 0.8889 | lr 3.1e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:51] D_spec2d_L1024 ep60 loss 1.256 train 0.6983 | val win 0.6762 rec 0.8788 | lr 3.1e-05 bs 256 | 5s peakmem 748MB 
+[2026-10-08 23:48:51] D_spec2d_L1024: training finished (max epochs) best val 0.6866 @ epoch 57
+[2026-10-08 23:48:52] D_spec2d_L1024 FINAL val           window acc 0.6866 | recording acc 0.8838
+[2026-10-08 23:48:52] D_spec2d_L1024 FINAL test          window acc 0.7048 | recording acc 0.9242
+[2026-10-08 23:48:53] D_spec2d_L1024 FINAL test_crossday window acc 0.5370 | recording acc 0.7280
+[2026-10-08 23:48:53] === all experiments attempted
+[2026-10-08 23:49:03] === train.py start | torch 2.6.0+cu124 | NVIDIA GeForce RTX 3070 Ti
+[2026-10-08 23:49:07] split train         recordings= 594  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:49:09] split val           recordings= 198  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:49:10] split test          recordings= 198  devices=25  samples/rec=500000  (days [1, 2, 3, 4])
+[2026-10-08 23:49:11] split test_crossday recordings= 250  devices=25  samples/rec=500000  (days [5])
+[2026-10-08 23:49:11] A_cnn1d_L256: already complete, skipping
+[2026-10-08 23:49:11] B_cnn1d_L1024: already complete, skipping
+[2026-10-08 23:49:11] C_rescnn1d_L256: already complete, skipping
+[2026-10-08 23:49:11] D_spec2d_L1024: already complete, skipping
+[2026-10-08 23:49:13] E_cnn1d_L4096: start. Same small CNN, 4096-sample window (4 LoRa symbols) | params=88345
+[2026-10-08 23:49:26] E_cnn1d_L4096 ep01 loss 3.097 train 0.0814 | val win 0.1095 rec 0.1061 | lr 1.0e-03 bs 256 | 13s peakmem 1103MB *best*
+[2026-10-08 23:49:37] E_cnn1d_L4096 ep02 loss 2.676 train 0.1532 | val win 0.1400 rec 0.1414 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:49:48] E_cnn1d_L4096 ep03 loss 2.523 train 0.1951 | val win 0.0433 rec 0.0404 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:49:59] E_cnn1d_L4096 ep04 loss 2.459 train 0.2211 | val win 0.2704 rec 0.3081 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:50:11] E_cnn1d_L4096 ep05 loss 2.412 train 0.2454 | val win 0.1387 rec 0.1465 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:50:22] E_cnn1d_L4096 ep06 loss 2.369 train 0.2704 | val win 0.0996 rec 0.0960 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:50:33] E_cnn1d_L4096 ep07 loss 2.323 train 0.2952 | val win 0.1636 rec 0.1667 | lr 1.0e-03 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:50:45] E_cnn1d_L4096 ep08 loss 2.277 train 0.3200 | val win 0.2027 rec 0.1970 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:50:56] E_cnn1d_L4096 ep09 loss 2.200 train 0.3612 | val win 0.1902 rec 0.1667 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:51:07] E_cnn1d_L4096 ep10 loss 2.154 train 0.3740 | val win 0.1861 rec 0.1616 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:51:18] E_cnn1d_L4096 ep11 loss 2.128 train 0.3893 | val win 0.2903 rec 0.2879 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:51:30] E_cnn1d_L4096 ep12 loss 2.096 train 0.3972 | val win 0.3833 rec 0.4293 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:51:41] E_cnn1d_L4096 ep13 loss 2.087 train 0.4012 | val win 0.2618 rec 0.2727 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:51:52] E_cnn1d_L4096 ep14 loss 2.059 train 0.4101 | val win 0.2998 rec 0.3535 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:52:03] E_cnn1d_L4096 ep15 loss 2.042 train 0.4147 | val win 0.4958 rec 0.5606 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:52:15] E_cnn1d_L4096 ep16 loss 2.021 train 0.4257 | val win 0.2687 rec 0.2677 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:52:26] E_cnn1d_L4096 ep17 loss 2.003 train 0.4329 | val win 0.4579 rec 0.4949 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:52:37] E_cnn1d_L4096 ep18 loss 1.989 train 0.4357 | val win 0.5251 rec 0.5808 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:52:48] E_cnn1d_L4096 ep19 loss 1.963 train 0.4490 | val win 0.4557 rec 0.5606 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:53:00] E_cnn1d_L4096 ep20 loss 1.945 train 0.4528 | val win 0.4426 rec 0.4242 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:53:11] E_cnn1d_L4096 ep21 loss 1.925 train 0.4591 | val win 0.3442 rec 0.3333 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:53:22] E_cnn1d_L4096 ep22 loss 1.909 train 0.4639 | val win 0.5716 rec 0.7273 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:53:34] E_cnn1d_L4096 ep23 loss 1.889 train 0.4767 | val win 0.3624 rec 0.3333 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:53:45] E_cnn1d_L4096 ep24 loss 1.872 train 0.4734 | val win 0.4799 rec 0.5606 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:53:56] E_cnn1d_L4096 ep25 loss 1.857 train 0.4800 | val win 0.4396 rec 0.4545 | lr 5.0e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:54:08] E_cnn1d_L4096 ep26 loss 1.854 train 0.4808 | val win 0.3736 rec 0.3889 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:54:19] E_cnn1d_L4096 ep27 loss 1.789 train 0.5176 | val win 0.5159 rec 0.6061 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:54:30] E_cnn1d_L4096 ep28 loss 1.776 train 0.5185 | val win 0.6074 rec 0.7879 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:54:41] E_cnn1d_L4096 ep29 loss 1.771 train 0.5152 | val win 0.4137 rec 0.4293 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:54:53] E_cnn1d_L4096 ep30 loss 1.746 train 0.5285 | val win 0.6475 rec 0.8030 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:55:04] E_cnn1d_L4096 ep31 loss 1.745 train 0.5225 | val win 0.2223 rec 0.2172 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:55:15] E_cnn1d_L4096 ep32 loss 1.723 train 0.5330 | val win 0.5862 rec 0.6616 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:55:27] E_cnn1d_L4096 ep33 loss 1.715 train 0.5328 | val win 0.6218 rec 0.7424 | lr 2.5e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:55:38] E_cnn1d_L4096 ep34 loss 1.704 train 0.5340 | val win 0.5862 rec 0.6818 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:55:49] E_cnn1d_L4096 ep35 loss 1.667 train 0.5616 | val win 0.6258 rec 0.7374 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:56:01] E_cnn1d_L4096 ep36 loss 1.667 train 0.5594 | val win 0.6565 rec 0.7677 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:56:12] E_cnn1d_L4096 ep37 loss 1.646 train 0.5670 | val win 0.6525 rec 0.7828 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:56:23] E_cnn1d_L4096 ep38 loss 1.640 train 0.5681 | val win 0.6290 rec 0.7323 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:56:35] E_cnn1d_L4096 ep39 loss 1.630 train 0.5703 | val win 0.6600 rec 0.8232 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:56:46] E_cnn1d_L4096 ep40 loss 1.633 train 0.5656 | val win 0.6159 rec 0.7879 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:56:57] E_cnn1d_L4096 ep41 loss 1.625 train 0.5717 | val win 0.5457 rec 0.5657 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:57:09] E_cnn1d_L4096 ep42 loss 1.614 train 0.5757 | val win 0.6388 rec 0.7929 | lr 1.3e-04 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:57:20] E_cnn1d_L4096 ep43 loss 1.609 train 0.5798 | val win 0.5956 rec 0.6616 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:57:31] E_cnn1d_L4096 ep44 loss 1.595 train 0.5866 | val win 0.6781 rec 0.8384 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:57:42] E_cnn1d_L4096 ep45 loss 1.588 train 0.5913 | val win 0.6196 rec 0.7172 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:57:54] E_cnn1d_L4096 ep46 loss 1.587 train 0.5873 | val win 0.6586 rec 0.7929 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:58:05] E_cnn1d_L4096 ep47 loss 1.578 train 0.5943 | val win 0.6868 rec 0.8333 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:58:16] E_cnn1d_L4096 ep48 loss 1.569 train 0.5947 | val win 0.6595 rec 0.7677 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:58:28] E_cnn1d_L4096 ep49 loss 1.565 train 0.5954 | val win 0.6656 rec 0.8081 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:58:39] E_cnn1d_L4096 ep50 loss 1.564 train 0.5974 | val win 0.6231 rec 0.7828 | lr 6.3e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:58:50] E_cnn1d_L4096 ep51 loss 1.559 train 0.6011 | val win 0.6572 rec 0.8030 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:59:02] E_cnn1d_L4096 ep52 loss 1.558 train 0.6023 | val win 0.6438 rec 0.7323 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:59:13] E_cnn1d_L4096 ep53 loss 1.550 train 0.6012 | val win 0.6807 rec 0.7980 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:59:24] E_cnn1d_L4096 ep54 loss 1.541 train 0.6097 | val win 0.6946 rec 0.8333 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:59:35] E_cnn1d_L4096 ep55 loss 1.551 train 0.6021 | val win 0.6945 rec 0.8434 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-08 23:59:47] E_cnn1d_L4096 ep56 loss 1.545 train 0.6024 | val win 0.6999 rec 0.8636 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB *best*
+[2026-10-08 23:59:58] E_cnn1d_L4096 ep57 loss 1.546 train 0.6068 | val win 0.6964 rec 0.8232 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-09 00:00:09] E_cnn1d_L4096 ep58 loss 1.537 train 0.6092 | val win 0.6853 rec 0.8232 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-09 00:00:21] E_cnn1d_L4096 ep59 loss 1.539 train 0.6069 | val win 0.6785 rec 0.7929 | lr 3.1e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-09 00:00:32] E_cnn1d_L4096 ep60 loss 1.531 train 0.6127 | val win 0.6880 rec 0.8333 | lr 1.6e-05 bs 256 | 11s peakmem 1103MB 
+[2026-10-09 00:00:32] E_cnn1d_L4096: training finished (max epochs) best val 0.6999 @ epoch 56
+[2026-10-09 00:00:33] E_cnn1d_L4096 FINAL val           window acc 0.6999 | recording acc 0.8636
+[2026-10-09 00:00:34] E_cnn1d_L4096 FINAL test          window acc 0.6751 | recording acc 0.8333
+[2026-10-09 00:00:36] E_cnn1d_L4096 FINAL test_crossday window acc 0.6668 | recording acc 0.8360
+[2026-10-09 00:00:36] === all experiments attempted

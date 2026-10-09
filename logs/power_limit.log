@@ -1,0 +1,6 @@
+Failed to set power management limit for GPU 00000000:01:00.0: Insufficient Permissions
+Terminating early due to previous errors.
+Failed to set power management limit for GPU 00000000:01:00.0: Insufficient Permissions
+Terminating early due to previous errors.
+power.limit [W], power.min_limit [W], power.max_limit [W], power.default_limit [W]
+310.00 W, 100.00 W, 320.00 W, 310.00 W
