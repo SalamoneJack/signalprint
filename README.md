@@ -4,7 +4,7 @@ Every radio transmitter has tiny manufacturing imperfections that leave a unique
 
 **Result:** the selected model identifies the transmitter from a single 4 ms signal slice **67% of the time on a day it never saw during training** (chance: 4%). Combining a recording's slices raises that to **84% per recording**.
 
-![Test accuracy per experiment](figures/test_accuracy.png)
+![Test accuracy per experiment](https://raw.githubusercontent.com/SalamoneJack/signalprint/main/figures/test_accuracy.png)
 
 | Experiment | What changed | Same-day test (per slice) | Unseen day (per slice) | Unseen day (per recording) |
 |---|---|---|---|---|

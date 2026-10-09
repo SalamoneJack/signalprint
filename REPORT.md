@@ -16,8 +16,8 @@ Run: 2026-10-08 23:03 → 2026-10-09 00:01 (training itself took ~27 min). Every
 
 **Kept model: `runs/E_cnn1d_L4096/best.pt`**, chosen by validation accuracy only (the test sets were never used to pick it). It also has the best per-window accuracy on the unseen day.
 
-![test accuracy](figures/test_accuracy.png)
-![validation curves](figures/val_curves.png)
+![test accuracy](https://raw.githubusercontent.com/SalamoneJack/signalprint/main/figures/test_accuracy.png)
+![validation curves](https://raw.githubusercontent.com/SalamoneJack/signalprint/main/figures/val_curves.png)
 
 ## What I learned
 
@@ -27,7 +27,7 @@ Run: 2026-10-08 23:03 → 2026-10-09 00:01 (training itself took ~27 min). Every
 4. **Combining windows helps a lot.** Even the weak 256-window models reach 56–84% per recording.
 5. **A data gap causes a clear failure.** Device 9 has no Day 2 training data (server returns 403, see below). On Day 5, 9 of its 10 recordings are classified as device 20, making device 9 the single largest source of error (9 of E's 41 wrong recordings on Day 5). The next largest are device 1 (6, confused with devices 2–4, which have similar CFO) and device 14 (5).
 
-![confusion, unseen day](figures/confusion_test_crossday.png)
+![confusion, unseen day](https://raw.githubusercontent.com/SalamoneJack/signalprint/main/figures/confusion_test_crossday.png)
 
 ## Data
 
