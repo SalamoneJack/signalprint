@@ -16,6 +16,24 @@ Every radio transmitter has tiny manufacturing imperfections that leave a unique
 
 The selected model was chosen on validation accuracy alone; test sets were never used for selection.
 
+## Improvement over baseline
+
+The selected model (E) and the baseline (A) are **the same small network**: 88k parameters, same training settings, same data. The only change is the length of signal in each input slice: 4,096 samples instead of 256. On a day neither model saw during training:
+
+| Measure (unseen day) | Baseline A | Selected E | Improvement |
+|---|---|---|---|
+| Single-slice accuracy | 16.1% | 66.7% | **+50.6 pts (4.1×)** |
+| Single-slice error rate | 83.9% | 33.3% | 60% fewer errors |
+| Recordings identified correctly | 141 of 250 | 209 of 250 | +68 recordings |
+| Recording error rate | 43.6% | 16.4% | 62% fewer errors |
+
+**What this represents.**
+- **Single slice:** the model sees one short piece of a transmission and must name which of 25 identical devices sent it. Random guessing is right 4% of the time; the baseline is about 4× better than chance, and the selected model about 17×.
+- **Recording:** the model combines its predictions across a transmission, as a deployed system listening for a few seconds would.
+- **Why it improved:** almost the entire gain comes from one finding about the signal, not from model capacity. Each device's fingerprint is a small frequency offset that only becomes visible across several LoRa symbols, and 256 samples is a quarter of one symbol. A network with 9× more parameters on the short input (experiment C) gained only 5 points.
+
+**Caveat:** at the recording level, E sees more signal than A (100 slices of 4,096 samples versus 100 of 256), so part of the recording-level gain comes from seeing more data. The single-slice comparison is the headline result for that reason.
+
 ## Key findings
 
 - **Understanding the signal beat adding model capacity.** Analysis of the raw data showed the strongest fingerprint is each device's carrier frequency offset: a stable ~2–4 kHz shift, tiny next to the ±62.5 kHz LoRa chirp. It only becomes separable when averaged across several LoRa symbols, each 1,024 samples here. Widening the input from 256 to 4,096 samples raised accuracy from 16% to 67%. A model with 9× more parameters on the short input reached only 21%.
